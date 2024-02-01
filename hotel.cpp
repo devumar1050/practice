@@ -39,6 +39,15 @@ int main() {
 		exit(EXIT_FAILURE); 
 	} 
 	
+{ 
+		perror("bind failed"); 
+		exit(EXIT_FAILURE); 
+	} 
+{ 
+		perror("bind failed"); 
+		exit(EXIT_FAILURE); 
+	} 
+
 	listen (sockfd,5);
 	int newfd;
 	
